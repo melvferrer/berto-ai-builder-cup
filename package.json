@@ -1,0 +1,25 @@
+{
+  "name": "berto-ai-builder-cup",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Berto \u2013 multilingual voice-first diabetes companion (Google Cloud AI Builder Cup 2026 public edition)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "icons": "node scripts/make-icons.mjs",
+    "start": "node server/index.js",
+    "vapid": "node server/gen-vapid.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.0",
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+dist
+data/
+server/data/
+*.log
+.venv/
+models/
+server/data/
+.env*
+**/vapid.json

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fil">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f4f8fc" />
+  <meta name="color-scheme" content="light" />
+  <meta name="description" content="Berto — kasama mo sa pag-aalaga ng type 2 diabetes." />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Berto" />
+  <link rel="preload" href="/fonts/nunito-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/brand/mark.svg" type="image/svg+xml" />
+  <link rel="icon" href="/icons/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" />
+  <title>CareGenicsAI | Berto</title>
+  <style>
+    html,body{margin:0;background:#f4f8fc;min-height:100%}
+    #splash{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:linear-gradient(180deg,#eaf2fb,#f4f8fc);font:800 28px/1 -apple-system,system-ui,sans-serif;color:#00529B;transition:opacity .25s}
+    #splash span{background:linear-gradient(90deg,#00529B,#00A651);-webkit-background-clip:text;background-clip:text;color:transparent}
+  </style>
+</head>
+<body>
+  <div id="splash" aria-hidden="true"><svg width="72" height="72" xmlns="http://www.w3.org/2000/svg" viewBox="40 40 944 944" role="img" aria-label="CareGenicsAI"><path d="M51 51 C331 51 460 180 460 460 C180 460 51 331 51 51 Z" fill="#00529B" transform=""/><path d="M51 51 C331 51 460 180 460 460 C180 460 51 331 51 51 Z" fill="#0072BC" transform="translate(1024 0) scale(-1 1)"/><path d="M51 51 C331 51 460 180 460 460 C180 460 51 331 51 51 Z" fill="#226B3F" transform="translate(0 1024) scale(1 -1)"/><path d="M51 51 C331 51 460 180 460 460 C180 460 51 331 51 51 Z" fill="#73A54D" transform="translate(1024 1024) scale(-1 -1)"/></svg><span>Berto</span></div>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
